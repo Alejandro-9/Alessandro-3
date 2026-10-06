@@ -1,0 +1,49 @@
+body {
+        font-family: Arial, sans-serif;
+            background: #f2f2f2;
+                display: flex;
+                    justify-content: center;
+                        align-items: center;
+                            height: 100vh;
+                                margin: 0;
+                                }
+
+                                .calculadora {
+                                    background: #222;
+                                        padding: 20px;
+                                            border-radius: 15px;
+                                                width: 280px;
+                                                }
+
+                                                #display {
+                                                    width: 100%;
+                                                        height: 60px;
+                                                            margin-bottom: 15px;
+                                                                font-size: 28px;
+                                                                    text-align: right;
+                                                                        box-sizing: border-box;
+                                                                            padding: 10px;
+                                                                            }
+
+                                                                            .botoes {
+                                                                                display: grid;
+                                                                                    grid-template-columns: repeat(4, 1fr);
+                                                                                        gap: 10px;
+                                                                                        }
+
+                                                                                        button {
+                                                                                            height: 55px;
+                                                                                                font-size: 20px;
+                                                                                                    border: none;
+                                                                                                        border-radius: 8px;
+                                                                                                            cursor: pointer;
+                                                                                                            }
+
+                                                                                                            button:hover {
+                                                                                                                opacity: 0.8;
+                                                                                                                }
+
+                                                                                                                .igual {
+                                                                                                                    grid-column: span 2;
+                                                                                                                    }
+}
